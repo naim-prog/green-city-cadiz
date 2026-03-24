@@ -10,5 +10,4 @@ dependencies = [
     "matplotlib>=3.10.8",
     "osmnx>=2.1.0",
     "rasterio>=1.5.0",
-    "rioxarray>=0.22.0",
 ]
