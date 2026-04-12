@@ -69,8 +69,8 @@ function cargarGeoJSON() {
 
                     // Preparamos el texto a mostrar
                     let texto = `<b>${nombreMuni}</b><br/>`;
-                    if (porcentaje !== undefined) {
-                        texto += `Vegetación: ${porcentaje}%`;
+                    if (porcentaje !== null) {
+                        texto += `Vegetación: ${porcentaje.toFixed(2)}%`;
                     } else {
                         texto += `<i>Sin datos</i>`;
                     }
