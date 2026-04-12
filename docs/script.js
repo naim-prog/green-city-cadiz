@@ -45,7 +45,7 @@ function cargarGeoJSON() {
         .then(respuesta => respuesta.json())
         .then(datosGeoJSON => {
             
-            L.geoJson(datosGeoJSON, {
+            capaGeoJSON = L.geoJson(datosGeoJSON, {
                 // A) Estilo de cada municipio
                 style: function(feature) {
                     // OJO: "feature.properties.name" depende de cómo esté estructurado tu GeoJSON.
@@ -92,7 +92,7 @@ function cargarGeoJSON() {
                         },
                         mouseout: function(e) {
                             // Devuelve el estilo al estado original
-                            this.resetStyle(e.target);
+                            capaGeoJSON.resetStyle(e.target);
                         }
                     });
                 }
