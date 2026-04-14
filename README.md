@@ -8,7 +8,7 @@ Algunos municipios cuentan con un límite administrativo bastante grande en comp
 
 # Tecnologías
 
-* **Procesamiento de imágenes**: Python (NumPy, Rasterio y OpenCV)
+* **Procesamiento de imágenes**: Python (NumPy, geopandas, Rasterio y OpenCV)
 
 * **Análisis Geoespacial**: QGIS
 
@@ -31,6 +31,10 @@ En caso de un píxel superar de manera simultánea estas 3 condiciones sería co
 # Resultados
 
 Los resultados (ranking y mapa interactivo) pueden encontrarse en la web del proyecto: [naim-prog.github.io/green-city-cadiz](https://naim-prog.github.io/green-city-cadiz)
+
+Comparativa del antes y despues del tratamiento de la imagen en la zona Norte del municipio de Cádiz. Se puede observar que zonas como el Parque Genovés aparecen como una gran masa de vegetación, así como varias plazas (San Antonio y Mina) destacan tambien por su gran presencia en cuanto a masa vegetal.
+
+![Imagen comparativa Cádiz](./files/comparativa.png)
 
 # Fuentes
 
