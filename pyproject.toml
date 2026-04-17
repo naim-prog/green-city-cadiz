@@ -1,5 +1,5 @@
 [project]
-name = "data-viz-green-city-cadiz"
+name = "green-city-cadiz"
 version = "0.1.0"
 description = "Proyecto de visualizacion de datos geoespaciales de Cádiz"
 readme = "README.md"
