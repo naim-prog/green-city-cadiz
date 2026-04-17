@@ -36,6 +36,30 @@ Comparativa del antes y despues del tratamiento de la imagen en la zona Norte de
 
 ![Imagen comparativa Cádiz](./files/comparativa.png)
 
+# Reproducibilidad
+
+Si tienes el gestor de paquetes de Python `uv` utiliza el comando:
+
+```
+uv sync
+```
+
+Si tienes el gestor de Python `pip` utiliza el comando:
+
+```
+pip install -r requirements.txt
+```
+
+Para descargar las imágenes satelitales ejecuta el script de Python `cnig-donwloader.py` con el siguiente comando:
+
+```
+python cnig-downloader.py
+```
+
+Para descargar la comunidad de Andalucía de OSM para los límites municipales crea el directorio osm/ y descarga [el archivo](https://download.geofabrik.de/europe/spain/andalucia-latest.osm.pbf) de Geofabrik
+
+Luego deberás seguir las instrucciones de cada uno de los apartados de la jupyter notebook `script.ipynb` y ejecutar los que sean necesarios.
+
 # Fuentes
 
 * Imágenes satelitales propiedad del [CNIG](https://centrodedescargas.cnig.es/CentroDescargas/ortofoto-pnoa-falso-color-infrarrojo) (_Centro Nacional de Información Geográfica_)
